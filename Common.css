@@ -1,0 +1,55 @@
+/* Los estilos CSS definidos aquí se aplicarán a todas las pieles (skins) */
+
+/* Formato del foro por -Algorithm & -Splaka */
+.forumheader { border: 1px solid #aaa; background-color: #f9f9f9; color: #000; margin-top: 1em; padding: 12px; }
+.forumlist td.forum_edited a {	color: black; text-decoration: none }
+.forumlist td.forum_title a {	padding-left: 20px; }
+.forumlist td.forum_title a.forum_new { font-weight: bold; background: url(//www.wikia.com/images/4/4e/Forum_new.gif) center left no-repeat; padding-left: 20px; }
+.forumlist td.forum_title a.forum_new:visited { font-weight: normal; background: none; padding-left: 20px; }
+.forumlist th.forum_title {	padding-left: 20px; }
+
+/**** CAROUSEL ****/
+ 
+.jcarousel-control-prev {
+	background: white;
+	opacity: 1 !important;
+	width: 36px;
+	height: 36px;
+	box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.4);
+	background-image: url("https://vignette.wikia.nocookie.net/youtubepedia/images/5/5f/Ic_keyboard_arrow_left_gray_24px.svg/revision/latest/scale-to-width-down/24?cb=20170508213110&path-prefix=es") !important;
+	background-repeat: no-repeat;
+	background-position: 5px 6px;
+}
+ 
+.jcarousel-control-next {
+	background: white;
+	opacity: 1 !important;
+	width: 36px;
+	height: 36px;
+	box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.4);
+	background-image: url("https://vignette.wikia.nocookie.net/youtubepedia/images/f/f4/Ic_keyboard_arrow_right_gray_24px.svg/revision/latest/scale-to-width-down/24?cb=20170508214133&path-prefix=es") !important;
+	background-repeat: no-repeat;
+	background-position: 5px 6px;
+}
+ 
+.jcarousel-control-prev:hover {
+	background-image: url("https://vignette.wikia.nocookie.net/youtubepedia/images/5/5f/Ic_keyboard_arrow_left_gray_24px.svg/revision/latest/scale-to-width-down/24?cb=20170508213110&path-prefix=es") !important;
+	background-repeat: no-repeat !important;
+	background-position: 5px 6px !important;
+}
+ 
+.jcarousel-control-next:hover {
+	background-image: url("https://vignette.wikia.nocookie.net/youtubepedia/images/f/f4/Ic_keyboard_arrow_right_gray_24px.svg/revision/latest/scale-to-width-down/24?cb=20170508214133&path-prefix=es") !important;
+	background-repeat: no-repeat !important;
+	background-position: 5px 6px !important;
+}
+ 
+.jcarousel-control-prev a {
+	display: none;
+}
+ 
+.jcarousel-control-next a {
+	display: none;
+}
+ 
+/**** FIN DE CAROUSEL ****/
